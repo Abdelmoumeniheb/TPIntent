@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:backgroundTint="#2196F3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:text="Bonjour les activités"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="20dp"
+        android:hint="Enter les paramétres" />
+
+    <Button
+        android:id="@+id/intentxplicite"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="INTENT EXPLICITE" />
+
+    <Button
+        android:id="@+id/intentxpliciteavectransmissiondedonne"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intentxplicite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="INTENT EXPLICITE AVEC TRANSMISSION DE DONNEES" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intentxpliciteavectransmissiondedonne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="www.google.com" />
+
+    <Button
+        android:id="@+id/parametresapplications"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/google"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="PARAMETRES APPPLICATIONS" />
+
+    <Button
+        android:id="@+id/appletelephonique"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parametresapplications"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="APPEL TELEPHONIQUE" />
+
+    <Button
+        android:id="@+id/paramtreapllcation"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appletelephonique"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="APPEL TELEPHONIQUE" />
+
+    <Button
+        android:id="@+id/envoiemail"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paramtreapllcation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="ENVOI EMAIL" />
+
+</RelativeLayout>
